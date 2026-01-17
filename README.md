@@ -1,14 +1,16 @@
-# DocQueryAI
-Retrieval-Augumented Generation of Answers from the provided doc using 
+# DocQueryAI .... What it does?
+Retrieval-Augumented Generation of Answers from the provided doc using LLM.
 
-## Installation
-pip install openai faiss-cpu streamlit PyPDF2 langchain
+## TECH-STACK
+ollama's llama3 model is used locally to generate answers. 
+Embeddings are created using sentence-transformers/all-MiniLM-L6-v2 locally.
+Vector DB used is FAISS from langchain (later can use ChromaDB)
+
+# PRE-REQUISITES:
+1. Ollama must be downloaded and running on the system.
 
 
 
-UI used is OpenWebUI
-LLM used are locally downloaded models in ollama (deepseek-llm:7b for code and llama3:latest for Q&A)             
-Embeddings are created using OpenAI (can use SentenceTransformers locally)
-Vector DB used is FAISS from langchain (later can use Chroma DB)
+LLM used are locally downloaded models in ollama (deepseek-llm:7b for code and llama3:latest for Q&A)    
 
 
