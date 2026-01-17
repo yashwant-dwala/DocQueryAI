@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Data & models
+data/
+cache/
+audio/
+image/
+uploads/
+models--*/
+vector_db/
+
+# Databases
+*.db
+*.sqlite3
+chroma.sqlite3
+webui.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

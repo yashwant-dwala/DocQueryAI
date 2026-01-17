@@ -1,0 +1,12 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "8003:11434"
+    volumes:
+      - /Users/yashwantdwala/ollama-data:/root/.ollama
+    restart: unless-stopped
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
