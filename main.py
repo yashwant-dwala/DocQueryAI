@@ -51,7 +51,7 @@ vectorstore = FAISS.from_texts(chunks, embeddings)
 llm = Ollama(
     temperature = 0,
     model="llama3",
-    base_url="http://localhost:11434"
+    base_url="http://localhost:8003"
 )
 
 print(llm.invoke("Say hello in one sentence."))
@@ -80,6 +80,6 @@ while True:
     """
 
     response = llm.invoke(prompt)
-    print(response)
+    print(response, "\n\n")
 
 
