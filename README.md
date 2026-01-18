@@ -6,7 +6,7 @@ ollama's llama3 model is used locally to generate answers.
 
 Embeddings are created using sentence-transformers/all-MiniLM-L6-v2 locally.
 
-Vector DB used is FAISS from langchain (later can use ChromaDB)
+Vector DB used is FAISS library (later can use ChromaDB)
 
 # PRE-REQUISITES:
 1. Ollama must be downloaded and running on the system.
