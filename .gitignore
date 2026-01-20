@@ -50,7 +50,6 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
-*.txt
 
 # Translations
 *.mo
@@ -228,3 +227,8 @@ Thumbs.db
 
 # Logs
 *.log
+
+
+#Files & Folders
+about.txt
+src/faiss_index
