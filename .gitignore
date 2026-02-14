@@ -230,5 +230,7 @@ Thumbs.db
 
 
 #Files & Folders
+sample.pdf
 about.txt
 src/faiss_index
+logs
